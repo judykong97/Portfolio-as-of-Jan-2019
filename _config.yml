@@ -1,0 +1,28 @@
+name: Judy Kong
+author: Judy Kong
+baseurl: /portfolio
+description: Judy Kong's Portfolio
+github: http://www.github.com/judykong97
+linkedin: http://www.linkedin.com/in/judy-kong-8aa80b128/
+email: junhank[at]andrew.cmu.edu
+location: 42°2'16"N   70°12'47"W
+
+##Make sure to edit the above fields, especially for disqus.
+
+
+highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables"]
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
