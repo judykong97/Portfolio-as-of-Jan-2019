@@ -1,17 +1,35 @@
 ---
 layout: default
 ---
+
+<!-- Showcase for each project -->
+</div>
+	<style>
+  	.showcase-wrapper {background-image: url("{{ site.baseurl }}/images/cover/{{ page.title }}.png");}
+  </style>
+  <div class="showcase-wrapper sticky">
+    <div class="showcase-text">
+      <!-- <span class="badge lazy"><smaller>FRESHLY MINTED</smaller></span> -->
+      <!-- Maybe not including the name of project -->
+      <!-- <br>{{ page.title }}<br> -->
+      <!-- <a href="{{ site.baseurl }}{{ post.url }}"><button type="button" class="btn btn-default showcase-button">Read More</button></a> -->
+    </div>
+  </div>
+<div class="container">
+<!-- Project content -->
 <div id="article">
-  <div class="article-title">{{ page.title }}</div>
-  <p class="meta">
-    <small>
-      &nbsp;<i class="fa fa-calendar-o"></i> {{ page.date | date_to_string}}
-    </small>
-  </p> <hr/>
   <div class="post">
+  	<div class="article-title">{{ page.title }}</div>
+  	<p class="meta">
+	    <!-- <small> -->
+	    {{ page.description }}
+	    <!-- &nbsp;<i class="fa fa-calendar-o"></i> {{ page.date | date_to_string}} -->
+	    <!-- </small> -->
+	  </p> <hr/>
     {{ content }}
   </div>
 </div>
-{% include share.html %}
-{% include pager.html %}
-{% include comment.html %}
+</div>
+<!-- {% include share.html %} -->
+<!-- {% include pager.html %} -->
+<!-- {% include comment.html %} -->

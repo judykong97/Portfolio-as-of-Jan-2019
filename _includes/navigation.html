@@ -28,7 +28,18 @@
     <li><a href="{{ site.baseurl }}/about.html">About</a></li>
     <li><a href="{{ site.baseurl }}/about.html">Resume / CV</a></li>
     <li><a href="{{ site.baseurl }}/about.html">Research</a></li>
-    <li><a href="{{ site.baseurl }}/about.html">Projects</a></li>
+    <li><a href="{{ site.baseurl }}/{{ post.url }}">Projects</a></li>
+    <ul class="sidebar-sub">
+      <li class="sidebar-subtitle">Interaction Design</li>
+      <!-- <li><a href="{{ site.baseurl }}/{{ post.url }}">Dispatch</a></li> -->
+    </ul>
+    {% for post in site.posts %}
+      {% if post.path contains 'interaction-design' %}
+        <ul class="homepage-posts">
+          <li><a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a></li>
+        </ul>
+      {% endif %}
+    {% endfor %}
     <li><a href="{{ site.baseurl }}/about.html">Personal Work</a></li>
     <li><a href="{{ site.baseurl }}/list.html">List</a></li>
     <li><a href="{{ site.baseurl }}/links.html">Links</a></li>

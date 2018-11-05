@@ -8,12 +8,12 @@ title: Judy Kong
 <div class="recent-posts">
   <h1>Recent Posts</h1>
   {% for post in site.posts limit: 3 %}
-    {% if forloop.first %}
+<!--     {% if forloop.first %}
       {% assign add_class = 'most-recent' %}
       {% capture fresh_tag %}
         &nbsp;<span class="badge"><smaller>FRESH</smaller></span>
       {% endcapture %}
-    {% endif %}
+    {% endif %} -->
     <ul class="homepage-posts {{ add_class }}">
       <li>
         <span>
