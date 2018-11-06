@@ -15,6 +15,12 @@ markdown: redcarpet
 redcarpet:
   extensions: ["tables"]
 
+collections:
+  projects:
+    title: true
+    output: true
+    permalink: /projects/:title
+
 defaults:
   - scope:
       path: ""
@@ -26,3 +32,10 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "post"
+
+

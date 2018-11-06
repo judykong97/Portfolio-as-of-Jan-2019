@@ -66,7 +66,7 @@ p
 .homepage-posts
 {
   list-style:none;
-  padding-left: 40px;
+  padding-left: 20px;
 }
 
 .container
@@ -200,7 +200,7 @@ p
   color: #818181;
   /*color:#999;*/
   display:block;
-  text-decoration:none
+  text-decoration:none;
 }
 
 .sidebar-sub li a:hover
@@ -214,6 +214,11 @@ p
 .sidebar-sub li a:active,.sidebar-sub li a:focus
 {
   text-decoration:none
+}
+
+.sidebar-subtitle {
+  /*text-decoration: underline;*/
+  /*border-bottom: 2px solid #eee;*/
 }
 
 .nav-toggle {
