@@ -30,6 +30,14 @@
     <li><a href="{{ site.baseurl }}/about.html">Research</a></li>
     <li><a href="{{ site.baseurl }}/{{ post.url }}">Projects</a></li>
     <ul class="sidebar-sub">
+      <li class="sidebar-subtitle">Apps</li>
+      {% for project in site.projects %}
+        {% if project.path contains 'software-app' %}
+        <ul class="homepage-posts">
+          <li><a href="{{ site.baseurl }}/projects/{{ project.title }}">{{ project.title }}</a></li>
+        </ul>
+        {% endif %}
+      {% endfor %}
       <li class="sidebar-subtitle">Interaction Design</li>
       {% for project in site.projects %}
         {% if project.path contains 'interaction-design' %}
@@ -38,27 +46,20 @@
         </ul>
         {% endif %}
       {% endfor %}
-      <li class="sidebar-subtitle">Software Application</li>
-      {% for project in site.projects %}
-        {% if project.path contains 'software-app' %}
-        <ul class="homepage-posts">
-          <li><a href="{{ site.baseurl }}/projects/{{ project.title }}">{{ project.title }}</a></li>
-        </ul>
-        {% endif %}
-      {% endfor %}
-      <li class="sidebar-subtitle">Data Science & ML</li>
+      <!-- Take this off temporarily -->
+      <!-- <li class="sidebar-subtitle">Data Science & ML</li>
       {% for project in site.projects %}
         {% if project.path contains 'data-ml' %}
         <ul class="homepage-posts">
           <li><a href="{{ site.baseurl }}/projects/{{ project.title }}">{{ project.title }}</a></li>
         </ul>
         {% endif %}
-      {% endfor %}
+      {% endfor %} -->
     </ul>
     <li><a href="{{ site.baseurl }}/about.html">Personal Work</a></li>
-    <li><a href="{{ site.baseurl }}/list.html">List</a></li>
+    <!-- <li><a href="{{ site.baseurl }}/list.html">List</a></li>
     <li><a href="{{ site.baseurl }}/links.html">Links</a></li>
-    <li><a href="{{ site.baseurl }}/projects.html">Projects</a></li>
+    <li><a href="{{ site.baseurl }}/projects.html">Projects</a></li> -->
     <!-- <hr /> --> <br></br>
     <div id="social-wrapper">
       <li> <a href="{{ site.github }}"><i class="fa fa-github-square"></i> GitHub</a> </li>

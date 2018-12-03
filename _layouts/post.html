@@ -28,6 +28,10 @@ layout: default
 	    <!-- &nbsp;<i class="fa fa-calendar-o"></i> {{ page.date | date_to_string}} -->
 	    <!-- </small> -->
 	  </p> <hr/>
+    {% if page.note contains ' ' %}
+      <p class="meta"><em> {{ page.note }} </em></p>
+      <hr/>
+    {% endif %}
     {{ content }}
   </div>
 </div>

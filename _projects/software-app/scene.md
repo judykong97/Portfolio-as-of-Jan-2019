@@ -1,18 +1,29 @@
 ---
 title: Scene
-description: An augmented reality app that tells you stories behind the scene
+description: Let augmented reality tell you about things "behind the scene"
+note: This was my first time ever exploring augmented reality app developments. In the project, I mainly worked on the back end database description retrieval, and helped putting together the front end display of floating text.
 ---
+
+##### This mobile app was a project for **Tartanhacks 2017**. My team was selected to give a demo on the final showcase and this project won the **DuoLingo Best Educational App Award**.
 
 ### Description
 
+When you walk into a museum, it's may be very hard to understand the art works, especially if you don't have much of an art background. The short descriptions by the art works are sometimes too small to read from far away, but you don't want to block other people. What to do then?
+
+Scene is a project that helps users understand art works with simple and straightforward augmented reality assistance. It helps you understand art works by storing a big number of art work descriptions in the database. Whenever you point your phone camera to an art work, it matches with the art works in our database, and displays the descriptions as text floating above the art work on your screen. In this way, you can have a full view of the art work without having to walk very close to look at the descriptions on the wall.
+
+![Image]({{ site.baseurl }}/images/projects/scene-demo.jpg)
+
 ### Implementation
+
+This project was developed using the Vuforia AR SDK. The on-screen interactions were created in Unity and C#. We used the Vuforia built-in image recognition feature to match with the pictures of art works we store in the database, and then display relevant text we grabbed from Wikipedia to the users.
 
 ### Tools & Technologies
 
-Unity, Vuforia SDK, C#
+Google Cloud Platform, Unity, Vuforia SDK, C#
 
-### Github Repository
+### Team Members
 
-[Scene](https://github.com/judykong97/scene)
+[Oshadha Gunasekara](https://www.linkedin.com/in/oshadhagunasekara), [Peter (Wenze) Shi](https://www.linkedin.com/in/wenze-shi-15920b15b/), [Ziyang Wang](https://www.linkedin.com/in/ziyang-wang-cmu/)
 
-![Image]({{ site.baseurl }}/images/projects/dispatch-research.jpg)
+<!-- [Scene](https://github.com/judykong97/scene) -->
