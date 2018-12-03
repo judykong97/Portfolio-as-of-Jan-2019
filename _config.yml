@@ -18,6 +18,8 @@ redcarpet:
 collections:
   projects:
     title: true
+    description: true
+    note: true
     output: true
     permalink: /projects/:title
 
