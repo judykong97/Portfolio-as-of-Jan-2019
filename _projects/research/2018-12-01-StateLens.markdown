@@ -9,22 +9,28 @@ date: 2018-12-01 19:55:16
 
 ### Description
 
-When you walk into a museum, it's may be very hard to understand the art works, especially if you don't have much of an art background. The short descriptions by the art works are sometimes too small to read from far away, but you don't want to block other people. What to do then?
+Blind people frequently encounter inaccessible dynamic touchscreens
+in their everyday lives that are difficult, frustrating, and
+often impossible to use independently. Touchscreens are often
+the only way to control everything from coffee machines and
+payment terminals, to subway ticket machines and in-flight
+entertainment systems. To solve this problem, we introduce
+StateLens —a system that uses a hybrid crowd-computer vision
+pipeline to provide interactive feedback to help blind
+users access touchscreen devices. StateLens works by dynamically
+reverse engineering state diagrams of existing interfaces
+from point-of-view usage videos. Even if an interface
+state has not been seen before, StateLens can interactively
+gather information about the state on-the-fly, enabling access
+in a short amount of time. We also introduce a 3D-printed
+finger cap that enables capacitive touchscreens to be used
+non-visually by preventing accidental touches on the interface.
+The design and architecture of StateLens was informed by a
+formative study with blind users, and our evaluation shows
+that StateLens can accurately reconstruct interface structures
+from crowdsourced stationary and point-of-view usage videos.
+We believe StateLens represents an important step for solving
+this long-standing accessibility problem, and its technical
+approach may find application broadly for augmenting how
+people interact with the touchscreens they encounter.
 
-Scene is a project that helps users understand art works with simple and straightforward augmented reality assistance. It helps you understand art works by storing a big number of art work descriptions in the database. Whenever you point your phone camera to an art work, it matches with the art works in our database, and displays the descriptions as text floating above the art work on your screen. In this way, you can have a full view of the art work without having to walk very close to look at the descriptions on the wall.
-
-![Image]({{ site.baseurl }}/images/projects/scene-demo.jpg)
-
-### Implementation
-
-This project was developed using the Vuforia AR SDK. The on-screen interactions were created in Unity and C#. We used the Vuforia built-in image recognition feature to match with the pictures of art works we store in the database, and then display relevant text we grabbed from Wikipedia to the users.
-
-### Tools & Technologies
-
-Google Cloud Platform, Unity, Vuforia SDK, C#
-
-### Team Members
-
-[Oshadha Gunasekara](https://www.linkedin.com/in/oshadhagunasekara), [Peter (Wenze) Shi](https://www.linkedin.com/in/wenze-shi-15920b15b/), [Ziyang Wang](https://www.linkedin.com/in/ziyang-wang-cmu/)
-
-<!-- [Scene](https://github.com/judykong97/scene) -->
