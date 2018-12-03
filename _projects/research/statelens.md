@@ -1,16 +1,14 @@
 ---
-title: Scene
-description: An Augmented Reality Museum Tour Guide
-note: This was my first time ever exploring augmented reality app developments. In the project, I mainly worked on the back end database description retrieval, and helped putting together the front end display of floating text.
+title: StateLens
+description: A Reverse Engineering Solution to Making Existing Dynamic Touchscreens Accessible
+note: In this research project, I implemented the computer vision back end including reference image matching, dynamic state diagram construction, fingertip detection and feedback instructions, etc. I also prototyped the 3D printed assistive fingercap, ran technical evaluations and user studies, and participated in paper writing.
 ---
 
-\#AugmentedReality
-
-##### This mobile app was a project for **Tartanhacks 2017**. My team was selected to give a demo on the final showcase and this project won the **DuoLingo Best Educational App Award**.
+\#Accessibility \#ComputerVision \#Crowdsourcing
 
 ### Description
 
-When you walk into a museum, it may be very hard to understand the art works, especially if you don't have much of an art background. The short descriptions by the art works are sometimes too small to read from far away, but you don't want to block other people. What to do then?
+When you walk into a museum, it's may be very hard to understand the art works, especially if you don't have much of an art background. The short descriptions by the art works are sometimes too small to read from far away, but you don't want to block other people. What to do then?
 
 Scene is a project that helps users understand art works with simple and straightforward augmented reality assistance. It helps you understand art works by storing a big number of art work descriptions in the database. Whenever you point your phone camera to an art work, it matches with the art works in our database, and displays the descriptions as text floating above the art work on your screen. In this way, you can have a full view of the art work without having to walk very close to look at the descriptions on the wall.
 

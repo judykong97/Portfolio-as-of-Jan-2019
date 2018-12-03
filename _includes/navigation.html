@@ -27,23 +27,34 @@
     <!-- <hr /> --> <br></br>
     <li><a href="{{ site.baseurl }}/about.html">About</a></li>
     <li><a href="{{ site.baseurl }}/about.html">Resume / CV</a></li>
-    <li><a href="{{ site.baseurl }}/about.html">Research</a></li>
-    <li><a href="{{ site.baseurl }}/{{ post.url }}">Projects</a></li>
+    <!-- <li><a href="{{ site.baseurl }}/about.html">Research</a></li> -->
+    <li>
+      <!-- <a href="{{ site.baseurl }}/{{ post.url }}"> -->
+      Projects
+      <!-- </a> -->
+    </li>
     <ul class="sidebar-sub">
-      <li class="sidebar-subtitle">Apps</li>
       {% for project in site.projects %}
-        {% if project.path contains 'software-app' %}
-        <ul class="homepage-posts">
+        {% if project.path contains 'research' %}
+        <!-- <ul class="homepage-posts"> -->
           <li><a href="{{ site.baseurl }}/projects/{{ project.title }}">{{ project.title }}</a></li>
-        </ul>
+        <!-- </ul> -->
         {% endif %}
       {% endfor %}
-      <li class="sidebar-subtitle">Interaction Design</li>
+      <!-- <li class="sidebar-subtitle">Apps</li> -->
+      {% for project in site.projects %}
+        {% if project.path contains 'software-app' %}
+        <!-- <ul class="homepage-posts"> -->
+          <li><a href="{{ site.baseurl }}/projects/{{ project.title }}">{{ project.title }}</a></li>
+        <!-- </ul> -->
+        {% endif %}
+      {% endfor %}
+      <!-- <li class="sidebar-subtitle">Interaction Design</li> -->
       {% for project in site.projects %}
         {% if project.path contains 'interaction-design' %}
-        <ul class="homepage-posts">
+        <!-- <ul class="homepage-posts"> -->
           <li><a href="{{ site.baseurl }}/projects/{{ project.title }}">{{ project.title }}</a></li>
-        </ul>
+        <!-- </ul> -->
         {% endif %}
       {% endfor %}
       <!-- Take this off temporarily -->

@@ -1,7 +1,10 @@
 ---
 title: Dispatch
-description: A cross-platform responsive peer economy solution to shipping problems in furniture exchange.
+description: A cross-platform responsive peer economy solution to shipping problems in furniture exchange
+note: 
 ---
+
+\#InteractionDesign \#ResponsiveDesign
 
 ### Motivation 
 
