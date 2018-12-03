@@ -2,6 +2,7 @@
 title: StateLens
 description: A Reverse Engineering Solution to Making Existing Dynamic Touchscreens Accessible
 note: In this research project, I implemented the computer vision back end including reference image matching, dynamic state diagram construction, fingertip detection and feedback instructions, etc. I also prototyped the 3D printed assistive fingercap, ran technical evaluations and user studies, and participated in paper writing.
+date: 2018-12-01 19:55:16
 ---
 
 \#Accessibility \#ComputerVision \#Crowdsourcing
