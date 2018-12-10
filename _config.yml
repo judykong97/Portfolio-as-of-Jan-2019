@@ -11,9 +11,6 @@ location: 42°2'16"N   70°12'47"W
 
 
 rouge: pygments
-markdown: redcarpet
-redcarpet:
-  extensions: ["tables"]
 
 collections:
   projects:
