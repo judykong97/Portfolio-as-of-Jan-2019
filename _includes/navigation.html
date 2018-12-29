@@ -33,9 +33,10 @@
       Projects
       <!-- </a> -->
     </li>
+    {% assign sorted = (site.projects | sort: 'date') | reverse %}
     <ul class="sidebar-sub">
       <li class="sidebar-subtitle">Research & Dev</li>
-      {% for project in site.projects %}
+      {% for project in sorted %}
         {% if project.path contains 'research' %}
         <!-- <ul class="homepage-posts"> -->
           <li><a href="{{ site.baseurl }}/projects/{{ project.title }}">{{ project.title }}</a></li>
@@ -43,7 +44,7 @@
         {% endif %}
       {% endfor %}
       <!-- <li class="sidebar-subtitle">Apps</li> -->
-      {% for project in site.projects %}
+      {% for project in sorted %}
         {% if project.path contains 'software-app' %}
         <!-- <ul class="homepage-posts"> -->
           <li><a href="{{ site.baseurl }}/projects/{{ project.title }}">{{ project.title }}</a></li>
@@ -51,7 +52,7 @@
         {% endif %}
       {% endfor %}
       <li class="sidebar-subtitle">Interaction Design</li>
-      {% for project in site.projects %}
+      {% for project in sorted %}
         {% if project.path contains 'interaction-design' %}
         <!-- <ul class="homepage-posts"> -->
           <li><a href="{{ site.baseurl }}/projects/{{ project.title }}">{{ project.title }}</a></li>

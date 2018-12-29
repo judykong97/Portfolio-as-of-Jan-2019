@@ -2,7 +2,7 @@
 title: Scene
 description: An Augmented Reality Museum Tour Guide
 note: This was my first time ever exploring augmented reality app developments. In the project, I mainly worked on the back end database description retrieval, and helped putting together the front end display of floating text.
-date: 2018-12-01 19:55:16
+date: 2018-11-01 19:55:16
 ---
 
 \#AugmentedReality
