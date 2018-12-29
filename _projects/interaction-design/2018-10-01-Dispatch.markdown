@@ -97,3 +97,7 @@ of car required to deliver the furniture based on its dimensions, and will show 
 ![Image]({{ site.baseurl }}/images/projects/dispatch-final-mobile-combined-3.jpg)
 
 ![Image]({{ site.baseurl }}/images/projects/dispatch-final-mobile-combined-4.jpg)
+
+### Team Members
+
+[Mengyang Li](https://www.mengyang.space/), [Hannah Kang](http://www.hannahkang.com/)

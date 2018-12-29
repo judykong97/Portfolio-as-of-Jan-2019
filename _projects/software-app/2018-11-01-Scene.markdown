@@ -9,6 +9,8 @@ date: 2018-11-01 19:55:16
 
 ##### This mobile app was a project for **Tartanhacks 2017**. My team was selected to give a demo on the final showcase and this project won the **DuoLingo Best Educational App Award**.
 
+<iframe src="https://www.youtube.com/embed/A-V3O89q-HI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Description
 
 When you walk into a museum, it may be very hard to understand the art works, especially if you don't have much of an art background. The short descriptions by the art works are sometimes too small to read from far away, but you don't want to block other people. What to do then?

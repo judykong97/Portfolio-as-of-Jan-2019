@@ -50,6 +50,11 @@ p
   font-weight:200;
 }
 
+iframe {
+  width: 70vw;
+  height: calc(70vw/1.77);
+}
+
 #profile-pic {
   border-radius: 50%;
 }
