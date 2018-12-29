@@ -1,0 +1,47 @@
+---
+title: Beeline
+description: Making bus schedule work with your personal schedule
+date: 2018-08-01 19:55:16
+note: In this project, I learned a number of user research techniques including contextual inquiry, affinity diagramming, surveys and interviewing, etc. I worked together with my teammates to brainstorm potential solutions to personalizing bus scheduling for eaiser planning and time management.
+---
+
+\#InteractionDesign \#UserResearch
+
+### Introduction
+
+In the Beeline project, we aimed to integrate bus scheduling with users' personal schedule for easier planning and time management for the CMU community. We went through contextual inquiry and interviewed five users from different backgrounds. We also sent surveys to different groups of stakeholders in the CMU community. Based on these results, we created an affinity diagram and consolidated sequence model and day-in-life model, then created user scenarios and storyboards of the design. 
+
+<!-- ### Contextual Inquiry
+
+### Surveys & Interviews -->
+
+### Affinity Diagram
+
+![Image]({{ site.baseurl }}/images/projects/beeline-affinitydiagram.jpg)
+
+<!-- ### Scenarios -->
+
+### Consolidated Models
+
+![Image]({{ site.baseurl }}/images/projects/beeline-seqmod.jpg)
+<!-- ![Image]({{ site.baseurl }}/images/projects/beeline-dayinlifemod.jpg) -->
+
+### Features
+
+* Smart sensors tracking boarding and exiting for bus occupancy tracking
+* Predictive data analytics for weather and traffic conditions
+* Smart morning alarm for optimal wakeup time
+* Real time updates
+* Google/Apple calendar integration
+* Compatible with Port Authority and CMU shuttle system
+
+### Storyboard
+
+![Image]({{ site.baseurl }}/images/projects/beeline-storyboard.jpg)
+
+### Team Members
+
+[Marisa Lu](http://marisa.lu/), [Tiffany Zhu](https://www.linkedin.com/in/tiffany-zhu-a11ab0105), [Linda Xia]()
+
+
+

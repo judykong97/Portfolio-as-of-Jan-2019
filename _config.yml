@@ -1,7 +1,7 @@
 name: Judy Kong
 author: Judy Kong
 baseurl: 
-description: Judy Kong's Portfolio
+description: Geek · Designer
 github: http://www.github.com/judykong97
 linkedin: http://www.linkedin.com/in/judy-kong-8aa80b128/
 email: junhank[at]andrew.cmu.edu
@@ -18,7 +18,7 @@ collections:
     description: true
     note: true
     output: true
-    permalink: /projects/:title
+    permalink: /projects/:title 
 
 defaults:
   - scope:
