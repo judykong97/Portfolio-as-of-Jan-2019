@@ -51,9 +51,10 @@ p
 }
 
 #messenger {
-  position: absolute;
-  top: 40%;
-  left: 35%;
+  /*position: absolute;*/
+  padding-top: 36%;
+  text-align: center;
+  /*left: 35%;*/
   /*transform: translate(-50%, -50%);*/
   font-family: monospace;
   font-size: 20px;
