@@ -11,20 +11,19 @@ note: In this project, I learned a number of user research techniques including 
 
 In the Beeline project, we aimed to integrate bus scheduling with users' personal schedule for easier planning and time management for the CMU community. We went through contextual inquiry and interviewed five users from different backgrounds. We also sent surveys to different groups of stakeholders in the CMU community. Based on these results, we created an affinity diagram and consolidated sequence model and day-in-life model, then created user scenarios and storyboards of the design. 
 
-<!-- ### Contextual Inquiry
-
-### Surveys & Interviews -->
-
 ### Affinity Diagram
 
 ![Image]({{ site.baseurl }}/images/projects/beeline-affinitydiagram.jpg)
 
-<!-- ### Scenarios -->
+### Consolidated Model
 
-### Consolidated Models
+<!-- ![Image]({{ site.baseurl }}/images/projects/beeline-seqmod.jpg) -->
+![Image]({{ site.baseurl }}/images/projects/beeline-dayinlifemod.jpg)
 
-![Image]({{ site.baseurl }}/images/projects/beeline-seqmod.jpg)
-<!-- ![Image]({{ site.baseurl }}/images/projects/beeline-dayinlifemod.jpg) -->
+### Designing from Models
+
+![Image]({{ site.baseurl }}/images/projects/beeline-designfrommodel-1.jpg)
+![Image]({{ site.baseurl }}/images/projects/beeline-designfrommodel-2.jpg)
 
 ### Features
 
